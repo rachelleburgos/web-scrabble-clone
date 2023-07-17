@@ -1,0 +1,13 @@
+{
+    "development": {
+        "mongoURL": "mongodb://localhost/my-database",
+        "apiEndpoint": "/api",
+        "message": "Hello from development!"
+    },
+    "production": {
+        "mongoURL": "<your-production-mongo-uri>",
+        "apiEndpoint": "/api",
+        "message": "Hello from production!"
+    }
+}
+  
